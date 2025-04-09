@@ -1,2 +1,0 @@
-# LLM-learnings
-LLM learnings

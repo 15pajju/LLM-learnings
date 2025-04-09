@@ -1,0 +1,6 @@
+streamlit
+chromadb
+nomic-embed-text
+PyPDF2
+langchain
+requests
