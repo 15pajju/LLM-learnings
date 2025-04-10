@@ -263,56 +263,44 @@ def main():
     st.markdown(
         """
         <style>
-        /* Set full dark background */
-        .stApp {
-            background-color: #000000;
-            color: white;
-        }
+    .stApp {
+        background-image: url("https://images.unsplash.com/photo-1506744038136-46273834b3fb");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        color: white;
+    }
 
-        /* Style container */
-        .block-container {
-            padding-top: 2rem;
-            padding-bottom: 2rem;
-            max-width: 800px;
-            margin: auto;
-        }
+    .block-container {
+        background-color: rgba(0, 0, 0, 0.6); /* Dark overlay for readability */
+        padding: 2rem;
+        border-radius: 12px;
+    }
 
-        /* Style all text elements */
-        h1, h2, h3, h4, h5, h6, p, label, span, div, input, textarea {
-            color: white !important;
-        }
+    h1, h2, h3, h4, h5, h6, p, label, span, div, input, textarea {
+        color: white !important;
+    }
 
-        /* Chat-style text input */
-        textarea {
-            background-color: #1e1e1e !important;
-            color: white !important;
-            border-radius: 10px;
-        }
+    textarea {
+        background-color: #1e1e1e !important;
+        color: white !important;
+        border-radius: 10px;
+    }
 
-        /* Sidebar styling */
-        .css-1d391kg, .css-1c7y2kd {
-            background-color: #1a1a1a !important;
-            color: white !important;
-        }
+    .stButton>button {
+        background-color: #2d2d2d;
+        color: white;
+        border: none;
+        border-radius: 10px;
+        padding: 0.5rem 1rem;
+    }
+    .stButton>button:hover {
+        background-color: #3a3a3a;
+    }
 
-        .css-1c7y2kd h1, .css-1c7y2kd label,
-        .css-1d391kg div, .css-1d391kg label {
-            color: white !important;
-        }
-
-        /* Buttons */
-        .stButton>button {
-            background-color: #2d2d2d;
-            color: white;
-            border: none;
-            border-radius: 10px;
-            padding: 0.5rem 1rem;
-        }
-        .stButton>button:hover {
-            background-color: #3a3a3a;
-        }
-        </style>
-        """,
+    </style>
+    """,
         unsafe_allow_html=True
     )
 
